@@ -7,4 +7,4 @@ This repository is under construction. It is not yet available.
 - サンプルシート
 
 ## 含まれるもの
-gdc_api.sh　
+- gdc_api.sh　
