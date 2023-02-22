@@ -3,8 +3,8 @@
 This repository is under construction. It is not yet available.
 
 ## GDCのサイトで準備するもの
-・マニフェストファイル
-・サンプルシート
+- マニフェストファイル
+- サンプルシート
 
 ## 含まれるもの
 gdc_api.sh　
