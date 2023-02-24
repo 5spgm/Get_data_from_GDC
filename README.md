@@ -10,5 +10,12 @@
 - gdc_api.sh　
 - fpkmlist.R
 
-##つかいかた
+## 動作確認済の環境
+- Ubuntu 20.04
+
+## つかいかた
 ```bash gdc_api.sh ***(マニフェストファイル名)```
+```R --vanilla --slave --args *1 *2 < fpkmlist.R```
+
+*1は任意の識別名称。例えば大腸癌だとCOAD、膵臓癌だとPAADなど
+*2マニフェストファイル名
