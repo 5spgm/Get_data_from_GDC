@@ -8,3 +8,7 @@
 
 ## 含まれるもの
 - gdc_api.sh　
+- fpkmlist.R
+
+##つかいかた
+```bash gdc_api.sh ***(マニフェストファイル名)```
