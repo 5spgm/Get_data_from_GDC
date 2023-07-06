@@ -7,11 +7,12 @@
 - サンプルシート
 
 ## 含まれるもの
-- gdc_api.sh　
-- fpkmlist.R
+- config.sh
+- gdc_api_DL.sh　
+- RNAseq_list.R
 
 ## 動作確認済の環境
-- Ubuntu 20.04
+- Ubuntu 22.04
 
 ## つかいかた
 ### ファイルの取得
