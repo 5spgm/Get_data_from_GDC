@@ -15,14 +15,14 @@
 - Ubuntu 22.04
 
 ## つかいかた
-### ファイルの取得
-```bash gdc_api.sh ***(マニフェストファイル名)```
+### ファイル情報の入力
+```bash config.sh
 
-### ファイル一覧のテキストファイルを作成
-```ls *.tsv > files.txt```
+### ファイルの取得
+```bash gdc_api.sh ***(上記config.shで作成したテキストファイル名)```
 
 ### 個々のファイルを合体
-```R --vanilla --slave --args *1 *2 < fpkmlist.R```
+```R --vanilla --slave --args *1 *2 < RNAseq_list.R```
 
 *1は任意の識別名称。例えば大腸癌だとCOAD、膵臓癌だとPAADなど
 *2マニフェストファイル名
